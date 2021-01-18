@@ -368,12 +368,12 @@ $EndComp
 $Comp
 L 74xx:74LS139 U6
 U 2 1 5FD665B3
-P 7100 4250
-F 0 "U6" H 7100 4617 50  0000 C CNN
-F 1 "74LS139" H 7100 4526 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 7100 4250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 7100 4250 50  0001 C CNN
-	2    7100 4250
+P 7100 4350
+F 0 "U6" H 7100 4717 50  0000 C CNN
+F 1 "74LS139" H 7100 4626 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 7100 4350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 7100 4350 50  0001 C CNN
+	2    7100 4350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -938,12 +938,6 @@ Wire Wire Line
 Text Label 4800 4550 0    50   ~ 0
 _DE00
 Wire Wire Line
-	6000 4550 6400 4550
-Wire Wire Line
-	6400 4550 6400 4450
-Wire Wire Line
-	6400 4450 6600 4450
-Wire Wire Line
 	6000 4350 6300 4350
 Text Label 6300 4350 2    50   ~ 0
 _EXROM
@@ -981,16 +975,16 @@ F 3 "" H 6500 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7600 4150 7850 4150
-Text Label 7850 4150 2    50   ~ 0
+	7600 4250 7850 4250
+Text Label 7850 4250 2    50   ~ 0
 U1_CE
 Wire Wire Line
-	7600 4250 7850 4250
-Wire Wire Line
 	7600 4350 7850 4350
-Text Label 7850 4250 2    50   ~ 0
-U2_CE
+Wire Wire Line
+	7600 4450 7850 4450
 Text Label 7850 4350 2    50   ~ 0
+U2_CE
+Text Label 7850 4450 2    50   ~ 0
 U3_CE
 Wire Wire Line
 	6950 1600 6950 1800
@@ -1333,16 +1327,16 @@ F 3 "" H 5500 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 4250 6600 4250
+	6450 4350 6600 4350
 Wire Wire Line
 	6000 4150 6200 4150
 Wire Wire Line
-	6450 4150 6600 4150
+	6450 4250 6600 4250
 Wire Wire Line
 	6000 4250 6200 4250
-Text Label 6450 4150 0    50   ~ 0
-Q2
 Text Label 6450 4250 0    50   ~ 0
+Q2
+Text Label 6450 4350 0    50   ~ 0
 Q1
 Text Label 6200 4150 2    50   ~ 0
 Q1
@@ -1386,4 +1380,6 @@ F 3 "" H 4550 6600 50  0001 C CNN
 	1    4550 6600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6000 4550 6600 4550
 $EndSCHEMATC
