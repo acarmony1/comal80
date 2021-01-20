@@ -11,4 +11,4 @@ The board is a simple 2 layer design, with (3) 27C256 EPROMS, and (4) logic devi
 
 1-18-2021	GutHub creation and release of V1. Design is known working and completed. No known issues or releases planned. 
 
-1-19-2021 C64/C128 folders added. C128 Comal Cartridge schematic added. Updated readme.md for each
+1-19-2021 C64/C128 folders added. C128 Comal Cartridge schematic added. Updated readme.md for each. Added C128 ROM files (U1, U2, U3)
