@@ -8,7 +8,7 @@ This project is a result of that task.
 
 The board is a simple 2 layer design, with (3) 27C256 EPROMS, and (3) logic devices (74LS86, 74LS161, 74LS139), others may be substitued but are not known at this time.
 
-The gerber files for creating a PCB are located in the gerbers directory. The bin files for U1 and U2 are located in the bin folder. U3 is left empty, and is used for personal spece (if needed) for user applications. There is a 'superchip' that existed to allow for expansion of the COMAL 80 system, however I cannot locate this bin currently.
+The gerber files for creating a PCB are located in the gerbers directory. The bin files for U1 and U2 are located in the bin folder. U3 is left empty, and is used for personal space (if needed) for user applications, called packages. There is a 'superchip' that existed to allow for expansion of the COMAL 80 system, however I cannot locate this bin currently.
 
 1-18-2021	GutHub creation and release of V1. Design is known working and completed. No known issues or releases planned. 
 
