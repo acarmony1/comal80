@@ -2,6 +2,8 @@
 COMAL 80 for C64
 https://carmony.xyz/10-commodore/commodore-64-projects/2-comal-80-for-the-c64.html
 
+or vist https://carmony.xyz for other infomation.
+
 In December of 2020 I was asked by KEN SIMMONS to create a comal-80 cartridge, for the Commodore 64, from an old COMAL TODAY magazine schematic. The COMAL80 cartridge uses unique 'bankswithcing' to switch up to 96KB of ROM.
 
 This project is a result of that task. 
